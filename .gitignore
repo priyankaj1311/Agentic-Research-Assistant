@@ -1,0 +1,27 @@
+# Environment variables / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+Thumbs.db
+desktop.ini
+
+# --- IMPORTANT FIX: Allow example/template env files ---
+!.env.example
+
+# Testing (Pytest)
+.pytest_cache/
+.coverage
+
+# Output Logs
+*.log
